@@ -1,10 +1,11 @@
 import React from 'react';
+import QuestionCard from './components/QuestionCard'; 
 
-function App() {
+
+const App = () => {
   return (
     <div className="App">
-     <h1>Testing your knowledge</h1>
-     <h2>Start answering the quiz questions</h2>
+      <QuestionCard/>
     </div>
   );
 }
