@@ -12,12 +12,12 @@ export const Wrapper = styled.div`
 `; 
 
 type btnWrapperProps = {
-    correct: boolean, 
-    isClicked: boolean
+    correct: boolean; 
+    isClicked: boolean; 
 }; 
 
 
-export const btnWrapper = styled.div<btnWrapperProps>`
+export const ButtonWrapper = styled.div<btnWrapperProps>`
     transition: all 0.3s ease; 
 
     :hover {
