@@ -1,6 +1,6 @@
 // here we will call the api to get questions in json 
 // https://opentdb.com/api.php?amount=10
-// start at: 0.32.05
+//https://opentdb.com/api.php?amount=5&category=19&difficulty=easy
 import { RandomizeQues, Question, QuizLevel } from "../controllers/QuestionsHandler";
 
 export const getQuestions = async (amount: number, difficulty: QuizLevel) => 
