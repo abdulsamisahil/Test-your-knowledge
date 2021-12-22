@@ -34,6 +34,7 @@ const App = () => {
   }
 
   const checkAnswer = (event: React.MouseEvent<HTMLButtonElement>) => {
+    
     if(!quizOver){
       
       const userAnswer = event.currentTarget.value; 
